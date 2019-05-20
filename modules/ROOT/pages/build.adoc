@@ -35,7 +35,7 @@ copyToClipboard::copy-set-env-sh[]
 
 Update the following environment variables as per your needs and customizations. 
 
-include::knative-tutorial:ROOT:partial$build-env-vars.adoc[]
+include::partial$build-env-vars.adoc[]
 
 [#source-set-env-sh]
 [source,bash,subs="+macros,+attributes",linenums]
