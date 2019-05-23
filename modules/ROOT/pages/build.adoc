@@ -267,7 +267,7 @@ oc apply -n {tutorial-namespace} -f event-greeter-build.yamll
 
 [#build-watching-logs]
 == Watching logs
-include::knative-tutorial:ROOT:partial$watching-build-logs.adoc[]
+include::ROOT:partial$watching-build-logs.adoc[]
 
 [#build-build-status]
 == Checking build status
