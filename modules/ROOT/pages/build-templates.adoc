@@ -31,7 +31,6 @@ include::partial$build-nav-folder.adoc[]
 
 For this chapter's build template demos, we will be using the following Knative build template that will use maven to build the Java application. The build template leverages https://buildah.io[buildah] to build and push the container image based on the Java application built using maven.
 
-[.text-center]
 .maven-build-template.yaml
 [source,yaml,linenums]
 ----
@@ -103,7 +102,6 @@ copyToClipboard::build-template-run-edit-service[]
 
 Running the above command will result in the following knative service file:
 
-[.text-center]
 .service-with-build-template.yaml
 [source,yaml,linenums]
 ----
